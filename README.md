@@ -14,7 +14,7 @@ You can install it by running the following command:
 pip install requests
 ```
 
-##Usage
+## Usage
 1. Clone or download this repository to your local machine.
 2. Navigate to the directory containing the script.
 3. Run the script using Python
@@ -24,6 +24,6 @@ python tcas65_results_checker.py
 4. Follow the on-screen prompts to input your Citizen ID and password.
 5. The script will then fetch and display your exam results for both Tgat/Tpat and A-Level exams.
 
-##Important Note
+## Important Note
 - This script relies on the TCAS65 API to fetch exam results. Make sure you have a stable internet connection while running the script.
 - Ensure that you input correct login credentials (Citizen ID and password) to fetch your exam results successfully.
