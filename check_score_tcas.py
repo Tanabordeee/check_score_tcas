@@ -1,13 +1,12 @@
 import subprocess
 import sys
 import os
+import time
 required_packages = ['requests']
 
-# Install missing packages
 def install_dependencies():
     subprocess.check_call([sys.executable, "-m", "pip", "install", "--upgrade", *required_packages])
 
-# Check if dependencies are installed, if not, install them
 try:
     import requests
 except ImportError:
@@ -87,3 +86,5 @@ def A_level_func():
         print(e)
 Tgat_Tpat_func()
 A_level_func()
+
+input("Press Enter to continue...")
